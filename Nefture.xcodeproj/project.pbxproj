@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4A17C72A7D8D5E00233575 /* NeftureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17C62A7D8D5E00233575 /* NeftureApp.swift */; };
+		4F4A17C92A7D8D5E00233575 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17C82A7D8D5E00233575 /* AppView.swift */; };
+		4F4A17CB2A7D8D5F00233575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4A17CA2A7D8D5F00233575 /* Assets.xcassets */; };
+		4F4A17CE2A7D8D5F00233575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4A17CD2A7D8D5F00233575 /* Preview Assets.xcassets */; };
+		4F4A17D52A7E041500233575 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17D42A7E041500233575 /* TabBar.swift */; };
+		4F4A17D82A7EE45C00233575 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17D72A7EE45C00233575 /* HomeTab.swift */; };
+		4F4A17DA2A7EE66900233575 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17D92A7EE66900233575 /* TabBarButton.swift */; };
+		4F4A17DC2A7EE90900233575 /* WalletTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17DB2A7EE90900233575 /* WalletTab.swift */; };
+		4F4A17DE2A7EE91900233575 /* NeftureTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17DD2A7EE91900233575 /* NeftureTab.swift */; };
+		4F4A17E02A7EE92A00233575 /* AlertsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17DF2A7EE92A00233575 /* AlertsTab.swift */; };
+		4F4A17E32A7F1B7200233575 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A17E22A7F1B7200233575 /* NavigationBar.swift */; };
+		4F6AEF612A80590D001C5D86 /* CryptoWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6AEF602A80590D001C5D86 /* CryptoWallet.swift */; };
+		4F75CB642A85DF88009D54E3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4F75CB632A85DF88009D54E3 /* FirebaseAuth */; };
+		4F75CB662A85DF88009D54E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4F75CB652A85DF88009D54E3 /* FirebaseFirestore */; };
+		4F75CB682A85DF88009D54E3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4F75CB672A85DF88009D54E3 /* FirebaseStorage */; };
+		4F75CB6A2A85DFF5009D54E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F75CB692A85DFF5009D54E3 /* GoogleService-Info.plist */; };
+		4F75CB6C2A85E2F7009D54E3 /* MyFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75CB6B2A85E2F7009D54E3 /* MyFirebase.swift */; };
+		4F7A827B2A842A7500746E2E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A827A2A842A7500746E2E /* Notifications.swift */; };
+		4F7A827D2A842B4300746E2E /* WideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A827C2A842B4300746E2E /* WideButton.swift */; };
+		4FA9068C2A81A3C0006CB956 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9068B2A81A3C0006CB956 /* ScanButton.swift */; };
+		4FE8EB142A8043D6009EA7A9 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8EB132A8043D6009EA7A9 /* Extras.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F4A17C32A7D8D5E00233575 /* Nefture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nefture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4A17C62A7D8D5E00233575 /* NeftureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeftureApp.swift; sourceTree = "<group>"; };
+		4F4A17C82A7D8D5E00233575 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4F4A17CA2A7D8D5F00233575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4A17CD2A7D8D5F00233575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F4A17D42A7E041500233575 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4F4A17D72A7EE45C00233575 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		4F4A17D92A7EE66900233575 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		4F4A17DB2A7EE90900233575 /* WalletTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTab.swift; sourceTree = "<group>"; };
+		4F4A17DD2A7EE91900233575 /* NeftureTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeftureTab.swift; sourceTree = "<group>"; };
+		4F4A17DF2A7EE92A00233575 /* AlertsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTab.swift; sourceTree = "<group>"; };
+		4F4A17E22A7F1B7200233575 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		4F6AEF602A80590D001C5D86 /* CryptoWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWallet.swift; sourceTree = "<group>"; };
+		4F75CB692A85DFF5009D54E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F75CB6B2A85E2F7009D54E3 /* MyFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirebase.swift; sourceTree = "<group>"; };
+		4F7A827A2A842A7500746E2E /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		4F7A827C2A842B4300746E2E /* WideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideButton.swift; sourceTree = "<group>"; };
+		4FA9068B2A81A3C0006CB956 /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		4FA9068D2A81F8DC006CB956 /* NeftureRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeftureRelease.entitlements; sourceTree = "<group>"; };
+		4FA9068E2A81F92D006CB956 /* NeftureDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeftureDebug.entitlements; sourceTree = "<group>"; };
+		4FE8EB132A8043D6009EA7A9 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4A17C02A7D8D5E00233575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F75CB642A85DF88009D54E3 /* FirebaseAuth in Frameworks */,
+				4F75CB662A85DF88009D54E3 /* FirebaseFirestore in Frameworks */,
+				4F75CB682A85DF88009D54E3 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4A17BA2A7D8D5D00233575 = {
+			isa = PBXGroup;
+			children = (
+				4F4A17C52A7D8D5E00233575 /* Nefture */,
+				4F4A17C42A7D8D5E00233575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4A17C42A7D8D5E00233575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4A17C32A7D8D5E00233575 /* Nefture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4A17C52A7D8D5E00233575 /* Nefture */ = {
+			isa = PBXGroup;
+			children = (
+				4F75CB692A85DFF5009D54E3 /* GoogleService-Info.plist */,
+				4FA9068E2A81F92D006CB956 /* NeftureDebug.entitlements */,
+				4FA9068D2A81F8DC006CB956 /* NeftureRelease.entitlements */,
+				4F4A17C62A7D8D5E00233575 /* NeftureApp.swift */,
+				4F4A17C82A7D8D5E00233575 /* AppView.swift */,
+				4F75CB6D2A85E587009D54E3 /* Utilities */,
+				4F4A17E12A7EE9B600233575 /* Tabs */,
+				4F4A17D62A7E044500233575 /* UI Elements */,
+				4F4A17CA2A7D8D5F00233575 /* Assets.xcassets */,
+				4F4A17CC2A7D8D5F00233575 /* Preview Content */,
+			);
+			path = Nefture;
+			sourceTree = "<group>";
+		};
+		4F4A17CC2A7D8D5F00233575 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F4A17CD2A7D8D5F00233575 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F4A17D62A7E044500233575 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A827C2A842B4300746E2E /* WideButton.swift */,
+				4F4A17D42A7E041500233575 /* TabBar.swift */,
+				4F6AEF602A80590D001C5D86 /* CryptoWallet.swift */,
+				4F4A17D92A7EE66900233575 /* TabBarButton.swift */,
+				4F4A17E22A7F1B7200233575 /* NavigationBar.swift */,
+				4FA9068B2A81A3C0006CB956 /* ScanButton.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		4F4A17E12A7EE9B600233575 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				4F4A17D72A7EE45C00233575 /* HomeTab.swift */,
+				4F4A17DF2A7EE92A00233575 /* AlertsTab.swift */,
+				4F4A17DB2A7EE90900233575 /* WalletTab.swift */,
+				4F4A17DD2A7EE91900233575 /* NeftureTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		4F75CB6D2A85E587009D54E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4FE8EB132A8043D6009EA7A9 /* Extras.swift */,
+				4F75CB6B2A85E2F7009D54E3 /* MyFirebase.swift */,
+				4F7A827A2A842A7500746E2E /* Notifications.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4A17C22A7D8D5E00233575 /* Nefture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4A17D12A7D8D5F00233575 /* Build configuration list for PBXNativeTarget "Nefture" */;
+			buildPhases = (
+				4F4A17BF2A7D8D5E00233575 /* Sources */,
+				4F4A17C02A7D8D5E00233575 /* Frameworks */,
+				4F4A17C12A7D8D5E00233575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nefture;
+			packageProductDependencies = (
+				4F75CB632A85DF88009D54E3 /* FirebaseAuth */,
+				4F75CB652A85DF88009D54E3 /* FirebaseFirestore */,
+				4F75CB672A85DF88009D54E3 /* FirebaseStorage */,
+			);
+			productName = Nefture;
+			productReference = 4F4A17C32A7D8D5E00233575 /* Nefture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4A17BB2A7D8D5D00233575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F4A17C22A7D8D5E00233575 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F4A17BE2A7D8D5E00233575 /* Build configuration list for PBXProject "Nefture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4A17BA2A7D8D5D00233575;
+			packageReferences = (
+				4F75CB622A85DF88009D54E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 4F4A17C42A7D8D5E00233575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4A17C22A7D8D5E00233575 /* Nefture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4A17C12A7D8D5E00233575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4A17CE2A7D8D5F00233575 /* Preview Assets.xcassets in Resources */,
+				4F4A17CB2A7D8D5F00233575 /* Assets.xcassets in Resources */,
+				4F75CB6A2A85DFF5009D54E3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4A17BF2A7D8D5E00233575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4A17E02A7EE92A00233575 /* AlertsTab.swift in Sources */,
+				4F4A17D52A7E041500233575 /* TabBar.swift in Sources */,
+				4F7A827D2A842B4300746E2E /* WideButton.swift in Sources */,
+				4F75CB6C2A85E2F7009D54E3 /* MyFirebase.swift in Sources */,
+				4F4A17D82A7EE45C00233575 /* HomeTab.swift in Sources */,
+				4F4A17C92A7D8D5E00233575 /* AppView.swift in Sources */,
+				4F6AEF612A80590D001C5D86 /* CryptoWallet.swift in Sources */,
+				4F7A827B2A842A7500746E2E /* Notifications.swift in Sources */,
+				4F4A17DA2A7EE66900233575 /* TabBarButton.swift in Sources */,
+				4F4A17E32A7F1B7200233575 /* NavigationBar.swift in Sources */,
+				4FE8EB142A8043D6009EA7A9 /* Extras.swift in Sources */,
+				4F4A17DE2A7EE91900233575 /* NeftureTab.swift in Sources */,
+				4F4A17C72A7D8D5E00233575 /* NeftureApp.swift in Sources */,
+				4F4A17DC2A7EE90900233575 /* WalletTab.swift in Sources */,
+				4FA9068C2A81A3C0006CB956 /* ScanButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F4A17CF2A7D8D5F00233575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4A17D02A7D8D5F00233575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4A17D22A7D8D5F00233575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nefture/NeftureDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nefture/Preview Content\"";
+				DEVELOPMENT_TEAM = KNMMQQRY56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nefture;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nefture.Nefture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4A17D32A7D8D5F00233575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nefture/NeftureRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nefture/Preview Content\"";
+				DEVELOPMENT_TEAM = KNMMQQRY56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nefture;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nefture.Nefture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4A17BE2A7D8D5E00233575 /* Build configuration list for PBXProject "Nefture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4A17CF2A7D8D5F00233575 /* Debug */,
+				4F4A17D02A7D8D5F00233575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4A17D12A7D8D5F00233575 /* Build configuration list for PBXNativeTarget "Nefture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4A17D22A7D8D5F00233575 /* Debug */,
+				4F4A17D32A7D8D5F00233575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F75CB622A85DF88009D54E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F75CB632A85DF88009D54E3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F75CB622A85DF88009D54E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4F75CB652A85DF88009D54E3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F75CB622A85DF88009D54E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4F75CB672A85DF88009D54E3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F75CB622A85DF88009D54E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F4A17BB2A7D8D5D00233575 /* Project object */;
+}
