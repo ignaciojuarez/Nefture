@@ -5,12 +5,11 @@
 //  Created by Ignacio Juarez on 8/6/23.
 //
 
-import UIKit
+import SwiftUI
 
 class Extras {
     
     static func generateHapticFeedback(style: UIImpactFeedbackGenerator.FeedbackStyle) {
-        let generator = UIImpactFeedbackGenerator(style: style)
-        generator.impactOccurred()
+        UIImpactFeedbackGenerator(style: style).impactOccurred()
     }
 }

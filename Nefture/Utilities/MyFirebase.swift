@@ -8,7 +8,7 @@ import SwiftUI
 import Firebase
 import FirebaseStorage
 
-class ImageLoader: ObservableObject {
+class FireImageLoader: ObservableObject {
     @Published var images: [UIImage] = []
     private var storage = Storage.storage()
 

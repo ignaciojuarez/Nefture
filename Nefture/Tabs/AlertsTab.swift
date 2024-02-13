@@ -172,7 +172,7 @@ struct AlertsTab: View {
                             HStack{
                                 
                                 Button {
-                                    Extras.generateHapticFeedback(style: .light)
+                                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                                 } label: {
                                     ZStack{
                                         
@@ -202,7 +202,7 @@ struct AlertsTab: View {
                             HStack{
                                 
                                 Button {
-                                    Extras.generateHapticFeedback(style: .light)
+                                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                                 } label: {
                                     ZStack{
                                         
@@ -227,7 +227,7 @@ struct AlertsTab: View {
                                 }
                                 
                                 Button {
-                                    Extras.generateHapticFeedback(style: .light)
+                                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                                 } label: {
                                     ZStack{
                                         
@@ -431,7 +431,7 @@ struct AlertsTab: View {
                             HStack{
                                 
                                 Button {
-                                    Extras.generateHapticFeedback(style: .light)
+                                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                                 } label: {
                                     ZStack{
                                         
@@ -456,7 +456,7 @@ struct AlertsTab: View {
                                 }
                                 
                                 Button {
-                                    Extras.generateHapticFeedback(style: .light)
+                                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                                 } label: {
                                     ZStack{
                                         

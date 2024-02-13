@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct HomeTab: View {
-    
-    @StateObject private var imageLoader = ImageLoader()
-    
     var body: some View {
         ZStack{
             ScrollView {
+                NavigationBar(icon: "simon-icon", title: "Nefture", description: "Your real-time Web3 protection")
                 
-                Text("some news? explainer videos?")
+                Text("Lazy-Loaded Firebase HStack ScrollVew (SwiftUI) ")
                     .foregroundColor(.white)
                     .padding()
                 
                 HorizontalImagesView("News")
                 
-                Text("some recap, info, scores? minimized alerts on top?, nfts?")
+                Text("test notifications through firebase call")
                     .foregroundColor(.white)
                     .padding()
                 
@@ -38,7 +36,7 @@ struct HomeTab: View {
 }
 
 struct HorizontalImagesView: View {
-    @StateObject private var imageLoader = ImageLoader()
+    @StateObject private var fireimageLoader = FireImageLoader()
     
     var fetchPath: String
 
@@ -49,7 +47,7 @@ struct HorizontalImagesView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
-                ForEach(imageLoader.images, id: \.self) { image in
+                ForEach(fireimageLoader.images, id: \.self) { image in
                     Image(uiImage: image)
                         .resizable()
                         .frame(width: 200, height: 200)
@@ -58,7 +56,7 @@ struct HorizontalImagesView: View {
             }
         }
         .onAppear {
-            imageLoader.fetchAllImages(from: fetchPath)
+            fireimageLoader.fetchAllImages(from: fetchPath)
         }
     }
 }

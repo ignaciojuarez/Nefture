@@ -31,7 +31,7 @@ struct TabBar: View {
                 // Home Button
                 Button {
                     selectedTab = .home
-                    Extras.generateHapticFeedback(style: .light)
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                 } label: {
                     TabBarButton(icon: "home-icon", text: "Home", isSelected: selectedTab == .home)
                 }
@@ -39,7 +39,7 @@ struct TabBar: View {
                 // Wallet Button
                 Button {
                     selectedTab = .alerts
-                    Extras.generateHapticFeedback(style: .light)
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                 } label: {
                     TabBarButton(icon: "radar-icon", text: "Alerts", isSelected: selectedTab == .alerts)
                 }
@@ -47,7 +47,7 @@ struct TabBar: View {
                 // Nefture+ Button
                 Button {
                     selectedTab = .wallet
-                    Extras.generateHapticFeedback(style: .light)
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                 } label: {
                     TabBarButton(icon: "wallet-icon", text: "Wallet", isSelected: selectedTab == .wallet)
                 }
@@ -55,7 +55,7 @@ struct TabBar: View {
                 // Profile Button
                 Button {
                     selectedTab = .nefture
-                    Extras.generateHapticFeedback(style: .light)
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
                 } label: {
                     TabBarButton(icon: "security-icon", text: "Nefture+", isSelected: selectedTab == .nefture)
                 }

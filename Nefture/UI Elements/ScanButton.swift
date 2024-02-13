@@ -33,7 +33,7 @@ struct ScanButton: View {
                         .animation(.easeInOut, value: score)
                         .onAppear() {
                             self.score = 0.72
-                            Extras.generateHapticFeedback(style: .rigid)
+                            UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
                         }
                         .frame(width: 180, height: 180)
                     
@@ -86,7 +86,7 @@ struct ScanButton: View {
     
     func startScanning() {
         
-        Extras.generateHapticFeedback(style: .rigid)
+        UIImpactFeedbackGenerator(style: .light).impactOccurred()
         isAnalyzing = true
         pulsate.toggle()
         
